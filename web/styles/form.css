@@ -1,0 +1,44 @@
+#form {
+  margin-top: 20px;
+  display: flex;
+  gap: 10px;
+}
+
+#form > input {
+  height: 36px;
+  width: 600px;
+  border: none;
+  color: #fff;
+  background-color: #202036;
+  border-radius: 24px;
+  padding: 0 12px;
+  font-size: 16px;
+}
+
+#form > input:focus {
+  outline: 2px solid #996dff;
+}
+
+#form > input:valid {
+  background-color: #202036;
+}
+
+#form > button {
+  height: 36px;
+  width: 36px;
+  border: none;
+  background-color: #996dff;
+  border-radius: 24px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#form > button:hover {
+  background-color: #993dff;
+}
+
+#form > button > i {
+  font-size: 16px;
+  color: #fff;
+  margin: 5px;
+}
